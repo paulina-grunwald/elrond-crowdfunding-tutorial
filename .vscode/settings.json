@@ -1,0 +1,39 @@
+{
+    "workbench.colorCustomizations": {
+        "[Solarized Dark]": {},
+        "activityBar.background": "#610406",
+        "titleBar.activeBackground": "#300203",
+        "titleBar.activeForeground": "#e7e7e7",
+        "activityBar.activeBackground": "#610406",
+        "activityBar.activeBorder": "#087a05",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#087a05",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#300203",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#610406",
+        "titleBar.inactiveBackground": "#30020399",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#300203",
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:HOME}/elrondsdk/vendor-rust/bin:${env:HOME}/elrondsdk/erdpy-venv/bin:${env:HOME}/elrondsdk/arwentools:${env:HOME}/elrondsdk/nodejs/latest/bin:${env:PATH}",
+        "VIRTUAL_ENV": "${env:HOME}/elrondsdk/erdpy-venv",
+        "RUSTUP_HOME": "${env:HOME}/elrondsdk/vendor-rust",
+        "CARGO_HOME": "${env:HOME}/elrondsdk/vendor-rust"
+    },
+    "terminal.integrated.env.osx": {
+        "PATH": "${env:HOME}/elrondsdk/vendor-rust/bin:${env:HOME}/elrondsdk/erdpy-venv/bin:${env:HOME}/elrondsdk/arwentools:${env:HOME}/elrondsdk/nodejs/latest/bin:${env:PATH}",
+        "VIRTUAL_ENV": "${env:HOME}/elrondsdk/erdpy-venv",
+        "RUSTUP_HOME": "${env:HOME}/elrondsdk/vendor-rust",
+        "CARGO_HOME": "${env:HOME}/elrondsdk/vendor-rust"
+    },
+    "terminal.integrated.environmentChangesIndicator": "on",
+    "terminal.integrated.inheritEnv": true,
+    "workbench.dialogs.customEnabled": true,
+    "rust-client.rustupPath": "${env:HOME}/elrondsdk/vendor-rust/bin/rustup",
+    "rust-client.rlsPath": "${env:HOME}/elrondsdk/vendor-rust/bin/rls",
+    "rust-client.disableRustup": true,
+    "rust-client.autoStartRls": false
+}
